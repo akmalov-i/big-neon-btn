@@ -59,12 +59,12 @@ button:focus {
     filter: blur(25px);
 }
 
-.btn:hover .text {
+.btn.active .text {
     color: ivory;
     transform: scale(1);
 }
 
-.btn:hover .outer
+.btn.active .outer
 {
     transform: translate(-50%, -50%) scale(1);
     animation: rotate 1s infinite alternate-reverse;
